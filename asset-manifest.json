@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/msoe-baja/static/css/main.964fdded.css",
+    "main.js": "/msoe-baja/static/js/main.b11c46c7.js",
+    "static/js/453.4d6bc301.chunk.js": "/msoe-baja/static/js/453.4d6bc301.chunk.js",
+    "index.html": "/msoe-baja/index.html",
+    "main.964fdded.css.map": "/msoe-baja/static/css/main.964fdded.css.map",
+    "main.b11c46c7.js.map": "/msoe-baja/static/js/main.b11c46c7.js.map",
+    "453.4d6bc301.chunk.js.map": "/msoe-baja/static/js/453.4d6bc301.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.b11c46c7.js"
+  ]
+}
