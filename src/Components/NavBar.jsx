@@ -1,14 +1,17 @@
-function NavBar() {
-    const navItems = ['HOME', 'VEHICLES', 'Current', 'Past', 'SUPPORT', 'Donate', 'Sponsorship',
-        'CONTACT US'];
+import NavItems from "./NavItems";
+import '../Navbar.css';
+import '../Pictures/BajaLogo.jpg'
+const NavBar = (props) => {
     return (
         <nav id="header">
             <div id="logoBox">
-                <img id="logo" src="../Pictures/BajaLogo.jpg" alt="MSOE logo"/>
+                <img id="logo" src={require("../Pictures/BajaLogo.jpg")} alt="MSOE logo"/>
             </div>
             <div id="contentBox">
-                <NavItems navItems={navItems} />
+                <NavItems changeSite={props.changeSite}/>
             </div>
         </nav>
     )
 }
+
+export default NavBar;
