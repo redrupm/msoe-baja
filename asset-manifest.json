@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/msoe-baja/static/css/main.4fd5ed80.css",
-    "main.js": "/msoe-baja/static/js/main.c710bec4.js",
+    "main.css": "/msoe-baja/static/css/main.194086e6.css",
+    "main.js": "/msoe-baja/static/js/main.87043a5c.js",
     "static/js/453.4d6bc301.chunk.js": "/msoe-baja/static/js/453.4d6bc301.chunk.js",
+    "static/media/Slideshow3.jpeg": "/msoe-baja/static/media/Slideshow3.3af0e9e1bfb320aa8213.jpeg",
+    "static/media/Slideshow2.jpeg": "/msoe-baja/static/media/Slideshow2.b7569374c581d7ba8050.jpeg",
+    "static/media/Slideshow1.jpeg": "/msoe-baja/static/media/Slideshow1.bcc1efb290c45a35c5eb.jpeg",
+    "static/media/AmeedProfile.jpg": "/msoe-baja/static/media/AmeedProfile.01e3e60d81025193026e.jpg",
+    "static/media/CamdenProfile.jpg": "/msoe-baja/static/media/CamdenProfile.cf82f6c245646b61fa9d.jpg",
+    "static/media/LeoProfile.jpg": "/msoe-baja/static/media/LeoProfile.0958486d98a72274a4cc.jpg",
     "index.html": "/msoe-baja/index.html",
-    "main.4fd5ed80.css.map": "/msoe-baja/static/css/main.4fd5ed80.css.map",
-    "main.c710bec4.js.map": "/msoe-baja/static/js/main.c710bec4.js.map",
+    "main.194086e6.css.map": "/msoe-baja/static/css/main.194086e6.css.map",
+    "main.87043a5c.js.map": "/msoe-baja/static/js/main.87043a5c.js.map",
     "453.4d6bc301.chunk.js.map": "/msoe-baja/static/js/453.4d6bc301.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fd5ed80.css",
-    "static/js/main.c710bec4.js"
+    "static/css/main.194086e6.css",
+    "static/js/main.87043a5c.js"
   ]
 }
