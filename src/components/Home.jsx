@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NavBar from './NavBar';
 import Slideshow from './home/Slideshow';
 import Blurb from './home/Blurb';
-// import Team from './home/Team';
+import Team from './home/Team';
 import Footer from './Footer';
 import '../scss/App.scss'
 
@@ -26,7 +26,7 @@ export default function Home() {
         <>
             <Slideshow />
             <Blurb />
-            {/*<Team />*/}
+            <Team />
         </>
     );
 }
