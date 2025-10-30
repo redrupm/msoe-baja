@@ -1,0 +1,100 @@
+[
+  {
+    "name": "David Rzepa",
+    "role": "Executive President, Team Principal",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/david-rzepa-37a033293",
+    "section": "Executive Board"
+  },
+  {
+    "name": "Leo Pietruszynski",
+    "role": "Executive Vice President, Vice Principal",
+    "major": "User Experience",
+    "linkedin": "https://www.linkedin.com/in/leopietruszynski",
+    "section": "Executive Board"
+  },
+  {
+    "name": "Aneeq Ahmad",
+    "role": "Executive Secretary, Administrative Principal, Drivetrain Lead",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/aneeqahmad07",
+    "section": "Executive Board"
+  },
+  {
+    "name": "Elizabeth Checkai",
+    "role": "Executive Treasurer, Environmental Health and Safety Manager",
+    "major": "Engineering",
+    "linkedin": "https://www.linkedin.com/in/checkaie",
+    "section": "Executive Board"
+  },
+  {
+    "name": "Peter Vladimirov",
+    "role": "Chassis Lead",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/peter-vladimirov",
+    "section": "General Board"
+  },
+  {
+    "name": "Colin Wells",
+    "role": "Steering Lead",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/cw06/",
+    "section": "General Board"
+  },
+  {
+    "name": "Niko Munoz",
+    "role": "Suspension Lead",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/nikomunoz64",
+    "section": "General Board"
+  },
+  {
+    "name": "Roman Zaslavskiy",
+    "role": "Braking Lead",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/roman-zaslavskiy-me",
+    "section": "General Board"
+  },
+  {
+    "name": "Kyle Rosser",
+    "role": "Electrical Lead",
+    "major": "Electrical Engineering",
+    "linkedin": "https://www.linkedin.com/in/kylerosser",
+    "section": "General Board"
+  },
+  {
+    "name": "Henry Pulling",
+    "role": "Fabrication Lead",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/henry-lewis-pulling",
+    "section": "General Board"
+  },
+  {
+    "name": "Backliff Mwaya",
+    "role": "Business Lead",
+    "major": "Civil Engineering",
+    "linkedin": "https://www.linkedin.com/in/backliff-mwaya-a46183281",
+    "section": "General Board"
+  },
+  {
+    "name": "Elizabeth Reyes",
+    "role": "Media Lead",
+    "major": "User Experience",
+    "linkedin": "https://www.linkedin.com/in/elizabeth-reyes-527374293",
+    "section": "General Board"
+  },
+  {
+    "name": "Lauren Marcotte",
+    "role": "Event Planning Coordination/Media",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/lauren-marcotte-038879330",
+    "section": "General Board"
+  },
+  {
+    "name": "Raymond Schmitt",
+    "role": "Operations Lead",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/ray-schmitt-me",
+    "section": "General Board"
+  }
+]

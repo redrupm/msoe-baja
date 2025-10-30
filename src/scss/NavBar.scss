@@ -1,0 +1,89 @@
+@import './App.scss';
+
+#header {
+  background: $background;
+  border-bottom: 1px solid #200000;
+  box-shadow: 3px 2px 3px $shadow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 4em;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#logoBox {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+#logo {
+  max-height: 4em;
+}
+
+#contentBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  color: $text;
+}
+
+.nav-group {
+  position: relative;
+
+  .nav-header {
+    font-family: brother-1816, sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    color: $text;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  .nav-dropdown {
+    position: absolute;
+    top: 2.5em;
+    left: 0;
+    background: $background;
+    box-shadow: 3px 2px 3px $shadow;
+    list-style: none;
+    padding: 0.5rem;
+    display: none;
+    z-index: 999;
+
+    li {
+      padding: 0.3rem 1rem;
+      font-weight: 600;
+      color: $text;
+      cursor: pointer;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+
+  &:hover .nav-dropdown {
+    display: block;
+  }
+}
+
+.clickable {
+  font-family: brother-1816, sans-serif;
+  font-weight: 800;
+  color: $text;
+
+  &:hover {
+    color: $accent;
+    cursor: pointer;
+  }
+}

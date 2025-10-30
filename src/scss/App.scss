@@ -1,0 +1,85 @@
+// === Variables ===
+$background: #22191c;
+$text: #e2e1e1;
+$accent: #ff4945;
+$shadow: #151515;
+
+// === Layout ===
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#body {
+  flex: 1;
+  padding-bottom: 120px; // Prevent overlap with fixed footer
+  width: 100%;
+  overflow: hidden;
+  height: 87.5vh;
+}
+
+// === Base Styles ===
+body {
+  margin: 0;
+  background: $background;
+  color: $text;
+  font-family: brother-1816, sans-serif;
+}
+
+// === Scrollbar Styling ===
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #474545;
+}
+
+// === Fade Animation ===
+.fade {
+  animation-duration: 2s;
+  animation-name: fade;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// === Utility Classes ===
+.clickable {
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+.title {
+  font-weight: 800;
+  color: $text;
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: 600;
+  color: $text;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+hr {
+  border-top: 1px solid darkred;
+  margin-top: 1.5em;
+}
