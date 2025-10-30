@@ -1,21 +1,33 @@
 {
   "files": {
-    "main.css": "/msoe-baja/static/css/main.194086e6.css",
-    "main.js": "/msoe-baja/static/js/main.87043a5c.js",
+    "main.css": "/msoe-baja/static/css/main.c8ecc8ca.css",
+    "main.js": "/msoe-baja/static/js/main.5ac61bb3.js",
     "static/js/453.4d6bc301.chunk.js": "/msoe-baja/static/js/453.4d6bc301.chunk.js",
-    "static/media/Slideshow3.jpeg": "/msoe-baja/static/media/Slideshow3.3af0e9e1bfb320aa8213.jpeg",
-    "static/media/Slideshow2.jpeg": "/msoe-baja/static/media/Slideshow2.b7569374c581d7ba8050.jpeg",
-    "static/media/Slideshow1.jpeg": "/msoe-baja/static/media/Slideshow1.bcc1efb290c45a35c5eb.jpeg",
-    "static/media/AmeedProfile.jpg": "/msoe-baja/static/media/AmeedProfile.01e3e60d81025193026e.jpg",
-    "static/media/CamdenProfile.jpg": "/msoe-baja/static/media/CamdenProfile.cf82f6c245646b61fa9d.jpg",
-    "static/media/LeoProfile.jpg": "/msoe-baja/static/media/LeoProfile.0958486d98a72274a4cc.jpg",
+    "static/media/slide1.jpeg": "/msoe-baja/static/media/slide1.b7569374c581d7ba8050.jpeg",
+    "static/media/slide2.jpeg": "/msoe-baja/static/media/slide2.bcc1efb290c45a35c5eb.jpeg",
+    "static/media/ElizabethReyes.jpg": "/msoe-baja/static/media/ElizabethReyes.03d3d5646528fdc6cb0c.jpg",
+    "static/media/LaurenMarcotte.jpg": "/msoe-baja/static/media/LaurenMarcotte.319167bb2d1b1d2532f3.jpg",
+    "static/media/MorganRedrup.jpg": "/msoe-baja/static/media/MorganRedrup.dc51836d1ae8b8e7ce3a.jpg",
+    "static/media/ElizabethCheckai.jpg": "/msoe-baja/static/media/ElizabethCheckai.0f6ce3bb33621bebee84.jpg",
+    "static/media/BackliffMwaya.jpg": "/msoe-baja/static/media/BackliffMwaya.a1e5361cc861151bc5ea.jpg",
+    "static/media/AneeqAhmad.jpg": "/msoe-baja/static/media/AneeqAhmad.6340ffd2eeda8509bc39.jpg",
+    "static/media/ColinWells.jpg": "/msoe-baja/static/media/ColinWells.b0ce7ce33ceb052622d2.jpg",
+    "static/media/RomanZaslavskiy.jpg": "/msoe-baja/static/media/RomanZaslavskiy.94ad893221e802cf7985.jpg",
+    "static/media/DavidRzepa.jpg": "/msoe-baja/static/media/DavidRzepa.636235fc0f1644911bd8.jpg",
+    "static/media/NikoMunoz.jpg": "/msoe-baja/static/media/NikoMunoz.f7232dcbad1499c74c7f.jpg",
+    "static/media/LeoPietruszynski.jpg": "/msoe-baja/static/media/LeoPietruszynski.d3f6810049a0917605d5.jpg",
+    "static/media/RaymondSchmitt.jpg": "/msoe-baja/static/media/RaymondSchmitt.0765fe5706d2c908ab0a.jpg",
+    "static/media/HenryPulling.jpg": "/msoe-baja/static/media/HenryPulling.01958938dccbdd85b710.jpg",
+    "static/media/KyleRosser.jpg": "/msoe-baja/static/media/KyleRosser.b9418f58523ea9293911.jpg",
+    "static/media/PeterVladimirov.jpg": "/msoe-baja/static/media/PeterVladimirov.a7400c02c10b830c2a03.jpg",
     "index.html": "/msoe-baja/index.html",
-    "main.194086e6.css.map": "/msoe-baja/static/css/main.194086e6.css.map",
-    "main.87043a5c.js.map": "/msoe-baja/static/js/main.87043a5c.js.map",
+    "static/media/HomePageBlurb.txt": "/msoe-baja/static/media/HomePageBlurb.5e7a39885f06618339c2.txt",
+    "main.c8ecc8ca.css.map": "/msoe-baja/static/css/main.c8ecc8ca.css.map",
+    "main.5ac61bb3.js.map": "/msoe-baja/static/js/main.5ac61bb3.js.map",
     "453.4d6bc301.chunk.js.map": "/msoe-baja/static/js/453.4d6bc301.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.194086e6.css",
-    "static/js/main.87043a5c.js"
+    "static/css/main.c8ecc8ca.css",
+    "static/js/main.5ac61bb3.js"
   ]
 }
