@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/msoe-baja/static/css/main.c8ecc8ca.css",
-    "main.js": "/msoe-baja/static/js/main.5ac61bb3.js",
+    "main.css": "/msoe-baja/static/css/main.1434daf1.css",
+    "main.js": "/msoe-baja/static/js/main.04fd870a.js",
     "static/js/453.4d6bc301.chunk.js": "/msoe-baja/static/js/453.4d6bc301.chunk.js",
     "static/media/slide1.jpeg": "/msoe-baja/static/media/slide1.b7569374c581d7ba8050.jpeg",
     "static/media/slide2.jpeg": "/msoe-baja/static/media/slide2.bcc1efb290c45a35c5eb.jpeg",
@@ -22,12 +22,12 @@
     "static/media/PeterVladimirov.jpg": "/msoe-baja/static/media/PeterVladimirov.a7400c02c10b830c2a03.jpg",
     "index.html": "/msoe-baja/index.html",
     "static/media/HomePageBlurb.txt": "/msoe-baja/static/media/HomePageBlurb.5e7a39885f06618339c2.txt",
-    "main.c8ecc8ca.css.map": "/msoe-baja/static/css/main.c8ecc8ca.css.map",
-    "main.5ac61bb3.js.map": "/msoe-baja/static/js/main.5ac61bb3.js.map",
+    "main.1434daf1.css.map": "/msoe-baja/static/css/main.1434daf1.css.map",
+    "main.04fd870a.js.map": "/msoe-baja/static/js/main.04fd870a.js.map",
     "453.4d6bc301.chunk.js.map": "/msoe-baja/static/js/453.4d6bc301.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8ecc8ca.css",
-    "static/js/main.5ac61bb3.js"
+    "static/css/main.1434daf1.css",
+    "static/js/main.04fd870a.js"
   ]
 }
