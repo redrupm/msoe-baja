@@ -9,8 +9,10 @@
   justify-content: space-between;
   padding: 0 2rem;
   height: 4em;
-  position: sticky;
+  position: fixed; /* use fixed so the navbar always stays at top */
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 999;
 }
 
@@ -34,6 +36,7 @@
 
 .nav-group {
   position: relative;
+  display: inline-block; /* keep group sizing tight so hover area is consistent */
 
   .nav-header {
     font-family: brother-1816, sans-serif;
@@ -48,29 +51,31 @@
     }
   }
 
-  .nav-dropdown {
-    position: absolute;
-    top: 2.5em;
-    left: 0;
-    background: $background;
-    box-shadow: 3px 2px 3px $shadow;
-    list-style: none;
-    padding: 0.5rem;
-    display: none;
-    z-index: 999;
+    .nav-dropdown {
+      position: absolute;
+      top: calc(100% - 1rem); /* place directly under the header */
+      left: 50%;
+      transform: translateX(-50%);
+      background: $background;
+      box-shadow: 3px 2px 6px $shadow;
+      list-style: none;
+      padding: 0.25rem 0.35rem;
+      display: none;
+      min-width: 8rem;
+      z-index: 1001; /* higher than header */
 
-    li {
-      padding: 0.3rem 1rem;
-      font-weight: 600;
-      color: $text;
-      cursor: pointer;
-      transition: color 0.3s ease;
+      li {
+        padding: 0.35rem 0.9rem;
+        font-weight: 600;
+        color: $text;
+        cursor: pointer;
+        transition: color 0.15s ease;
 
-      &:hover {
-        color: $accent;
+        &:hover {
+          color: $accent;
+        }
       }
     }
-  }
 
   &:hover .nav-dropdown {
     display: block;

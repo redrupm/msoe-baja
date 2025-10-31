@@ -4,27 +4,38 @@ $text: #e2e1e1;
 $accent: #ff4945;
 $shadow: #151515;
 
+
 // === Layout ===
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: $background;
+  color: $text;
+  font-family: brother-1816, sans-serif;
+  overflow-x: hidden; // prevent horizontal scroll
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
+  position: relative; // create new stacking context
 }
 
 #body {
   flex: 1;
   padding-bottom: 120px; // Prevent overlap with fixed footer
+  padding-top: 4em; // prevent content from hiding under fixed navbar
   width: 100%;
-  overflow: hidden;
-  height: 87.5vh;
-}
-
-// === Base Styles ===
-body {
-  margin: 0;
-  background: $background;
-  color: $text;
-  font-family: brother-1816, sans-serif;
+  box-sizing: border-box; // include padding in width calculation
 }
 
 // === Scrollbar Styling ===
@@ -79,7 +90,3 @@ body {
   padding: 0.5em 0;
 }
 
-hr {
-  border-top: 1px solid darkred;
-  margin-top: 1.5em;
-}
