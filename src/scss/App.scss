@@ -10,6 +10,11 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; /* make it easy to reason about widths/padding */
 }
 
 body {
@@ -20,6 +25,7 @@ body {
   color: $text;
   font-family: brother-1816, sans-serif;
   overflow-x: hidden; // prevent horizontal scroll
+  max-width: 100vw; /* ensure no element can expand the viewport */
 }
 
 .app-container {
@@ -36,6 +42,13 @@ body {
   padding-top: 4em; // prevent content from hiding under fixed navbar
   width: 100%;
   box-sizing: border-box; // include padding in width calculation
+}
+
+/* Make all images responsive so they don't cause overflow */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 // === Scrollbar Styling ===
@@ -88,5 +101,47 @@ body {
   color: $text;
   text-align: center;
   padding: 0.5em 0;
+}
+
+/* Home blurb styling — centered, readable paragraph block */
+.home-blurb {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 1.25rem;
+}
+
+.home-blurb .blurb-inner {
+  max-width: 900px;
+  /* make the blurb plain text rather than a card */
+  background: transparent;
+  border-radius: 0;
+  padding: 0.6rem 0.25rem;
+  box-shadow: none;
+}
+
+.home-blurb p {
+  margin: 0.6rem 0;
+  color: lighten($text, 6%);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.home-blurb p:first-child {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: $text;
+}
+
+@media (max-width: 520px) {
+  .home-blurb .blurb-inner {
+    padding: 0.9rem 1rem;
+  }
+
+  .home-blurb p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
 }
 

@@ -34,6 +34,47 @@
   color: $text;
 }
 
+.mobile-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  align-self: center;
+  .hamburger {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: $text;
+    position: relative;
+  }
+  .hamburger::before,
+  .hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 22px;
+    height: 2px;
+    background: $text;
+  }
+  .hamburger::before { top: -7px; }
+  .hamburger::after { top: 7px; }
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 4em;
+  left: 0;
+  right: 0;
+  background: $background;
+  padding: 0.5rem 1rem 1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  z-index: 1500;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
 .nav-group {
   position: relative;
   display: inline-block; /* keep group sizing tight so hover area is consistent */
@@ -79,6 +120,57 @@
 
   &:hover .nav-dropdown {
     display: block;
+  }
+}
+
+/* Responsive: mobile layout */
+@media (max-width: 768px) {
+  #logoBox { width: auto; }
+  /* reduce header horizontal gutter on small screens so page content aligns */
+  #header { padding: 0 1.25rem; }
+  #contentBox { display: none; }
+  .mobile-toggle { display: block; }
+
+  .mobile-menu {
+    position: absolute;
+    top: 4em;
+    left: 0;
+    right: 0;
+    background: $background;
+    padding: 0.5rem 1.25rem 1rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    z-index: 1500;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .mobile-menu .nav-group {
+    display: block;
+    width: 100%;
+  }
+
+  .mobile-menu .nav-header {
+    display: block;
+    padding: 0.6rem 0.4rem;
+    font-size: 1.05rem;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+
+  .mobile-menu .nav-dropdown {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    display: block;
+    background: transparent;
+    padding: 0.25rem 0 0.5rem;
+    box-shadow: none;
+    min-width: 0;
+  }
+
+  .mobile-menu .nav-dropdown li {
+    padding-left: 1rem;
   }
 }
 

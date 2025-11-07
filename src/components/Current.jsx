@@ -1,9 +1,19 @@
 import React from 'react';
 import '../scss/Current.scss';
+import pageData from '../data/CurrentPageData.json';
 import car1 from '../images/slide1.jpeg';
 import car2 from '../images/slide2.jpeg';
 
 export default function Current() {
+    const scrollToGallery = () => {
+        const el = document.getElementById('gallery');
+        if (!el) return;
+        const header = document.getElementById('header');
+        const headerOffset = header ? header.offsetHeight : 64;
+        const top = el.getBoundingClientRect().top + window.scrollY - headerOffset - 8; // small gap
+        window.scrollTo({ top, behavior: 'smooth' });
+    };
+
     return (
         <section className="current-page">
             <div className="current-hero">
@@ -13,23 +23,24 @@ export default function Current() {
 
                 <div className="hero-info">
                     <h1 className="title">Current Vehicle</h1>
-                    <p className="subtitle">Our current competition vehicle — purpose-built for endurance and efficiency.</p>
+                    {pageData && pageData.blurb.split('\n\n').map((para, i) => (
+                        <p key={i} className="subtitle">{para}</p>
+                    ))}
 
                                 <div className="specs">
                                     <h3>Vehicle Specs</h3>
                                     <ul>
-                                        <li><strong>Chassis:</strong> TBD</li>
-                                        <li><strong>Drivetrain:</strong> TBD</li>
-                                        <li><strong>Suspension:</strong> TBD</li>
-                                        <li><strong>Brakes:</strong> TBD</li>
-                                        <li><strong>Weight:</strong> TBD</li>
+                                        {pageData && pageData.specs.map((s, idx) => (
+                                            <li key={idx}><strong>{s.label}:</strong> {s.value}</li>
+                                        ))}
                                     </ul>
-                                    <p className="note">Technical specs are being finalized — check back soon for full details.</p>
+                                    {pageData && pageData.note && (
+                                        <p className="note">{pageData.note}</p>
+                                    )}
                                 </div>
 
                     <div className="actions">
-                        <button className="primary">View Gallery</button>
-                        <a className="secondary" href="#gallery">Jump to photos</a>
+                        <button className="primary" onClick={scrollToGallery}>View Gallery</button>
                     </div>
                 </div>
             </div>

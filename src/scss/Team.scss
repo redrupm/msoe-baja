@@ -94,7 +94,7 @@
   /* Info card that overlaps (covers) the bottom half of the circular image */
   .info {
     width: 100%;
-    max-width: 175px;
+    max-width: 220px; /* increased so longer names fit on one line */
     background-color: lighten($background, 5%);
     margin-top: -25px; /* reduced overlap for 160px image */
     padding: 0.25rem 1.25rem 1.25rem;
@@ -174,7 +174,7 @@
   }
 
   .team-member .info {
-    max-width: 160px;
+    max-width: 200px;
     margin-top: -50px; /* slightly less overlap on mobile */
     padding: 0.5rem 1rem;
   }
