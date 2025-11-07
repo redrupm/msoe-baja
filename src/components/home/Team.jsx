@@ -37,7 +37,7 @@ export default function Team() {
                   <div className="team-grid">
                     {members.map((member, index) => (
                       <div className="team-member" key={index}>
-                        <img src={require(`../../images/${member.name.replace(/\s/g, '')}.jpg`)} alt={member.name} />
+                        <img src={require(`../../images/people/${member.name.replace(/\s/g, '')}.jpg`)} alt={member.name} />
                         <div className="info">
                           <div className="name-hover">
                             <h3>{member.name}</h3>
