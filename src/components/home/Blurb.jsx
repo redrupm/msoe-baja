@@ -1,17 +1,14 @@
-import React, {useState, useEffect} from 'react';
-import blurb from '../../data/HomePageBlurb.txt';
+import React from 'react';
+import homeData from '../../data/HomePageData.json';
+
 export default function Blurb(){
-    const [blurbText, setBlurbText] = useState(null);
-    useEffect(() => {
-      fetch(blurb)
-        .then((r) => r.text())
-        .then((text) => {
-          setBlurbText(text);
-        });
-    }, []);
-    return(
-        <>
-            <p>{blurbText}</p>
-        </>
-    );
+  return(
+    <section className="home-blurb">
+      <div className="blurb-inner">
+        {homeData && homeData.blurb.split('\n\n').map((para, i) => (
+          <p key={i}>{para}</p>
+        ))}
+      </div>
+    </section>
+  );
 }

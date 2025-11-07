@@ -44,6 +44,8 @@ $accent: #ff4945;
     cursor: pointer;
     z-index: 2;
     transition: background 0.3s ease;
+    -webkit-tap-highlight-color: transparent; /* remove default tap flash on mobile */
+    touch-action: manipulation;
 
     &:hover {
       background-color: $accent;
@@ -56,5 +58,36 @@ $accent: #ff4945;
 
   .next {
     right: 1em;
+  }
+
+  /* Mobile: make touch targets larger and keep buttons pinned to the image sides */
+  @media (max-width: 768px) {
+    .prev,
+    .next {
+      width: 48px;
+      height: 48px;
+      padding: 0;
+      font-size: 1.5rem;
+      border-radius: 50%;
+      background-color: rgba(0,0,0,0.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-tap-highlight-color: transparent;
+      outline: none;
+    }
+
+    .prev { left: 8px; }
+    .next { right: 8px; }
+  }
+
+  /* ensure focus/active states do not leave persistent accent color on mobile */
+  .prev:focus, .next:focus,
+  .prev:active, .next:active {
+    background-color: rgba(0,0,0,0.45);
+    outline: none;
+    box-shadow: none;
   }
 }

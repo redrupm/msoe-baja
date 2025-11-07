@@ -15,17 +15,31 @@
   },
   {
     "name": "Aneeq Ahmad",
-    "role": "Executive Secretary, Administrative Principal, Drivetrain Lead",
+    "role": "Executive Secretary, Administrative Principal",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/aneeqahmad07",
     "section": "Executive Board"
   },
   {
     "name": "Elizabeth Checkai",
-    "role": "Executive Treasurer, Environmental Health and Safety Manager",
-    "major": "Engineering",
+    "role": "Executive Treasurer",
+    "major": "Actuarial Science",
     "linkedin": "https://www.linkedin.com/in/checkaie",
     "section": "Executive Board"
+  },
+  {
+    "name": "Elizabeth Checkai",
+    "role": "Health & Safety Manager",
+    "major": "Actuarial Science",
+    "linkedin": "https://www.linkedin.com/in/checkaie",
+    "section": "General Board"
+  },
+    {
+    "name": "Aneeq Ahmad",
+    "role": "Drivetrain Lead",
+    "major": "Mechanical Engineering",
+    "linkedin": "https://www.linkedin.com/in/aneeqahmad07",
+    "section": "General Board"
   },
   {
     "name": "Peter Vladimirov",
@@ -85,7 +99,7 @@
   },
   {
     "name": "Lauren Marcotte",
-    "role": "Event Planning Coordination/Media",
+    "role": "Event Planning",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/lauren-marcotte-038879330",
     "section": "General Board"

@@ -1,0 +1,12 @@
+{
+  "contacts": [
+    { "role": "President", "email": "TBD" },
+    { "role": "Vice President", "email": "TBD" },
+    { "role": "General Inquiries", "email": "TBD" }
+  ],
+  "events": [
+    { "title": "EVENT", "date": "DATE" },
+    { "title": "EVENT", "date": "DATE" }
+  ],
+  "copyright": "© 2025 MSOE Baja Racing. All Rights Reserved."
+}

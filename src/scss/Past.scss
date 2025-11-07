@@ -1,0 +1,48 @@
+@import './App.scss';
+
+.past-page {
+  padding: 1.25rem 1.25rem 3rem;
+  color: $text;
+}
+
+.past-hero {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.past-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.6rem;
+}
+
+.past-gallery .thumb {
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.18);
+}
+
+.past-gallery .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.past-gallery .thumb:hover img {
+  transform: scale(1.05);
+}
+
+@media (min-width: 900px) {
+  .past-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .past-gallery .thumb {
+    height: 120px;
+  }
+}

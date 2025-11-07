@@ -1,0 +1,12 @@
+{
+  "blurb": "TBD",
+  "specs": [
+    { "label": "Chassis", "value": "TBD" },
+    { "label": "Drivetrain", "value": "TBD" },
+    { "label": "Suspension", "value": "TBD" },
+    { "label": "Brakes", "value": "TBD" },
+    { "label": "Weight", "value": "TBD" }
+  ]
+  ,
+  "note": "TBD"
+}
