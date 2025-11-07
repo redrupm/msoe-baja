@@ -1,8 +1,8 @@
 {
   "contacts": [
-    { "role": "Team Principal", "rzepad@msoe.edu": "David Rzepa" },
-    { "role": "Vice Principal", "pietruszynskil@msoe.edu": "Leo Pietruszynski" },
-    { "role": "General Inquiries", "baja@msoe.edu": "TBD" }
+    { "role": "Team Principal", "email": "rzepad@msoe.edu" },
+    { "role": "Vice Principal", "email": "pietruszynskil@msoe.edu"},
+    { "role": "General Inquiries", "email": "baja@msoe.edu" }
   ],
   "events": [
     { "title": "EVENT", "date": "DATE" },
