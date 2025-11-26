@@ -1,0 +1,129 @@
+@import './App.scss';
+
+.donate-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.donate-hero {
+  text-align: center;
+  padding: 3rem 1.5rem 2rem;
+  background: linear-gradient(180deg, lighten($background, 3%) 0%, $background 100%);
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    color: lighten($text, 10%);
+  }
+}
+
+.donate-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.donate-section {
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: 1.8rem;
+    color: $accent;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: lighten($text, 5%);
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: lighten($text, 5%);
+      padding: 0.5rem 0 0.5rem 1.5rem;
+      position: relative;
+
+      &:before {
+        content: "•";
+        color: $accent;
+        font-weight: bold;
+        font-size: 1.5rem;
+        position: absolute;
+        left: 0;
+        top: 0.3rem;
+      }
+    }
+  }
+}
+
+.donate-cta {
+  background: lighten($background, 5%);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid $accent;
+  text-align: center;
+}
+
+.donate-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.donate-button {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  background-color: $accent;
+  color: $text;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+  border: 2px solid $accent;
+
+  &:hover {
+    background-color: darken($accent, 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba($accent, 0.3);
+  }
+
+  &.secondary {
+    background-color: transparent;
+    color: $accent;
+
+    &:hover {
+      background-color: $accent;
+      color: $text;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .donate-hero .title {
+    font-size: 2rem;
+  }
+
+  .donate-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .donate-button {
+    width: 100%;
+    text-align: center;
+  }
+}

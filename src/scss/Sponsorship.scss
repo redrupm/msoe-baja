@@ -1,0 +1,182 @@
+@import './App.scss';
+
+.sponsorship-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.sponsorship-hero {
+  text-align: center;
+  padding: 3rem 1.5rem 2rem;
+  background: linear-gradient(180deg, lighten($background, 3%) 0%, $background 100%);
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    color: lighten($text, 10%);
+  }
+}
+
+.sponsorship-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.sponsorship-section {
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: 1.8rem;
+    color: $accent;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: lighten($text, 5%);
+    margin-bottom: 1rem;
+  }
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.benefit-card {
+  background: lighten($background, 5%);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-top: 3px solid $accent;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba($accent, 0.2);
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    color: $accent;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: lighten($text, 5%);
+    margin: 0;
+  }
+}
+
+.levels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.level-card {
+  background: lighten($background, 5%);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 3px solid;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  &.gold {
+    border-color: #ffd700;
+  }
+
+  &.silver {
+    border-color: #c0c0c0;
+  }
+
+  &.bronze {
+    border-color: #cd7f32;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .amount {
+    font-size: 1.25rem;
+    color: $accent;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+
+    li {
+      padding: 0.5rem 0 0.5rem 1.5rem;
+      position: relative;
+      font-size: 1rem;
+      color: lighten($text, 5%);
+
+      &:before {
+        content: "✓";
+        color: $accent;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+}
+
+.sponsorship-cta {
+  background: lighten($background, 5%);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid $accent;
+  text-align: center;
+}
+
+.sponsorship-button {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  background-color: $accent;
+  color: $text;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: darken($accent, 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba($accent, 0.3);
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsorship-hero .title {
+    font-size: 2rem;
+  }
+
+  .benefits-grid,
+  .levels {
+    grid-template-columns: 1fr;
+  }
+}

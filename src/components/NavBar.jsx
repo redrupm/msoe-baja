@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import NavItems from './NavItems';
-import logo from '../images/BajaLogo.jpg';
+import logo from '../images/logos/MASTER_RR_WhiteRed.png';
 import '../scss/NavBar.scss'
 
 function NavBar({ handleClick }) {

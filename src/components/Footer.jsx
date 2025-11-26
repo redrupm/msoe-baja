@@ -59,12 +59,6 @@ export default function Footer({ className }) {
                 <div className="footer-footnotes">
                     <p>{copyright}</p>
                 </div>
-                {/* Debug: show raw footerData in development for troubleshooting */}
-                {process.env.NODE_ENV !== 'production' && (
-                    <div className="footer-debug" style={{marginTop: '12px'}}>
-                        <pre style={{color:'#ddd', fontSize:'12px'}}>{JSON.stringify(footerData, null, 2)}</pre>
-                    </div>
-                )}
             </div>
         </footer>
     );

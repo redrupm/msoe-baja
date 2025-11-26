@@ -23,7 +23,11 @@
 }
 
 #logo {
-  max-height: 4em;
+  max-height: 3em;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  margin-left: -1rem;
 }
 
 #contentBox {

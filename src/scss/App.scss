@@ -38,7 +38,7 @@ body {
 
 #body {
   flex: 1;
-  padding-bottom: 120px; // Prevent overlap with fixed footer
+  padding-bottom: 2rem; // Equal spacing to match top
   padding-top: 4em; // prevent content from hiding under fixed navbar
   width: 100%;
   box-sizing: border-box; // include padding in width calculation

@@ -48,6 +48,18 @@
   padding: 1rem 0;
 }
 
+/* Executive board: lay out horizontally and center the members
+   Use flex so the EBoard shows as a row on wider screens and wraps on small screens */
+.eboard-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* allow wrapping on narrow viewports */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
 .board-heading {
   font-size: 2rem;
   font-weight: bold;
@@ -109,7 +121,13 @@
       color: $accent;
     }
 
-    .role,
+    .role {
+      font-size: 0.95rem;
+      margin-bottom: 0.2rem;
+      color: darken($text, 15%);
+      font-style: italic;
+    }
+
     .major {
       font-size: 0.95rem;
       margin-bottom: 0.2rem;

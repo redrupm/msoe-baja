@@ -3,7 +3,7 @@ import './../../scss/Slideshow.scss';
 
 import slide1 from '../../images/slide1.jpeg';
 import slide2 from '../../images/slide2.jpeg';
-import logo from '../../images/BajaLogo.jpg';
+import logo from '../../images/logos/MASTER_RR_WhiteRed.png';
 
 const images = [slide1, slide2, logo];
 

@@ -1,0 +1,147 @@
+@import './App.scss';
+
+.contact-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.contact-hero {
+  text-align: center;
+  padding: 3rem 1.5rem 2rem;
+  background: linear-gradient(180deg, lighten($background, 3%) 0%, $background 100%);
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    color: lighten($text, 10%);
+  }
+}
+
+.contact-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.contact-section {
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: 1.8rem;
+    color: $accent;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: lighten($text, 5%);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.contact-card {
+  background: lighten($background, 5%);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 3px solid $accent;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 24px rgba($accent, 0.2);
+  }
+
+  .contact-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    color: $accent;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: lighten($text, 5%);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  a {
+    color: $accent;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: lighten($accent, 10%);
+      text-decoration: underline;
+    }
+  }
+
+  address {
+    font-style: normal;
+    color: lighten($text, 5%);
+    line-height: 1.6;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.faq {
+  max-width: 800px;
+  margin: 2rem auto 0;
+}
+
+.faq-item {
+  background: lighten($background, 5%);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid $accent;
+
+  h3 {
+    font-size: 1.2rem;
+    color: $accent;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: lighten($text, 5%);
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-hero .title {
+    font-size: 2rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
