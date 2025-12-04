@@ -1,11 +1,11 @@
 {
-  "blurb": "TBD",
+  "blurb": "Onyx",
   "specs": [
-    { "label": "Chassis", "value": "TBD" },
-    { "label": "Drivetrain", "value": "TBD" },
-    { "label": "Suspension", "value": "TBD" },
-    { "label": "Brakes", "value": "TBD" },
-    { "label": "Weight", "value": "TBD" }
+    { "label": "Chassis", "value": "4130 Chromoly Tube Chassis: cut, bent and welded in house." },
+    { "label": "Drivetrain", "value": "CVT Transmission & 8.2-1 Reduction Gearbox with a RWD to AWD dogbox shifter." },
+    { "label": "Suspension", "value": "Custom SuperShox springs and rear load bearing axle." },
+    { "label": "Brakes", "value": "3 Hayes brakes, with a dual master cyclinder & a single rear inboard brake." },
+    { "label": "Weight", "value": "~550lbs" }
   ]
   ,
   "note": "TBD"
