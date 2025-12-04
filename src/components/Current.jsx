@@ -1,7 +1,7 @@
 import React from 'react';
 import '../scss/Current.scss';
 import pageData from '../data/CurrentPageData.json';
-import car1 from '../images/onyx.jpg';
+import car1 from '../images/current/onyx.jpg';
 import car2 from '../images/slide2.jpeg';
 
 export default function Current() {
