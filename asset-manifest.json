@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/msoe-baja/static/css/main.360db2ab.css",
-    "main.js": "/msoe-baja/static/js/main.55d11ec5.js",
-    "static/js/453.4d6bc301.chunk.js": "/msoe-baja/static/js/453.4d6bc301.chunk.js",
+    "main.css": "/msoe-baja/static/css/main.38454915.css",
+    "main.js": "/msoe-baja/static/js/main.c2bce6bb.js",
+    "static/js/453.133846ae.chunk.js": "/msoe-baja/static/js/453.133846ae.chunk.js",
     "static/media/slide1.jpeg": "/msoe-baja/static/media/slide1.b7569374c581d7ba8050.jpeg",
     "static/media/slide2.jpeg": "/msoe-baja/static/media/slide2.bcc1efb290c45a35c5eb.jpeg",
     "static/media/ElizabethReyes.jpg": "/msoe-baja/static/media/ElizabethReyes.03d3d5646528fdc6cb0c.jpg",
@@ -20,13 +20,36 @@
     "static/media/HenryPulling.jpg": "/msoe-baja/static/media/HenryPulling.01958938dccbdd85b710.jpg",
     "static/media/KyleRosser.jpg": "/msoe-baja/static/media/KyleRosser.b9418f58523ea9293911.jpg",
     "static/media/PeterVladimirov.jpg": "/msoe-baja/static/media/PeterVladimirov.a7400c02c10b830c2a03.jpg",
+    "static/media/MASTER_RR_BlackRed.png": "/msoe-baja/static/media/MASTER_RR_BlackRed.d4e1718190ee5b578e99.png",
+    "static/media/MASTER_RR_WhiteRed.png": "/msoe-baja/static/media/MASTER_RR_WhiteRed.a850b4ddcfff1752b309.png",
+    "static/media/MilwaukeeTool_White.png": "/msoe-baja/static/media/MilwaukeeTool_White.a4b3a09484b4e3316046.png",
+    "static/media/MichaelMcMurray.jpg": "/msoe-baja/static/media/MichaelMcMurray.30825e1f93fedbcd83d1.jpg",
+    "static/media/OaklandGyros_White.png": "/msoe-baja/static/media/OaklandGyros_White.4267ab7d7d82b6e58823.png",
+    "static/media/CFS_White.png": "/msoe-baja/static/media/CFS_White.27398833776074d6b147.png",
+    "static/media/Navy_White.png": "/msoe-baja/static/media/Navy_White.61e0a0c7f67b5ea7c596.png",
+    "static/media/SuperShox_White.png": "/msoe-baja/static/media/SuperShox_White.5755cf219d05afee1b14.png",
+    "static/media/HarleyDavidson_White.png": "/msoe-baja/static/media/HarleyDavidson_White.7069a9c4ba2bf1ed4000.png",
+    "static/media/Ellingsen_White.png": "/msoe-baja/static/media/Ellingsen_White.32cb8b0c668ebae18c50.png",
+    "static/media/Aim_White.png": "/msoe-baja/static/media/Aim_White.e793b52ca8f84e5e20d0.png",
+    "static/media/Solidworks_White.png": "/msoe-baja/static/media/Solidworks_White.102a671924abc3b44ad5.png",
+    "static/media/Amalga_White.png": "/msoe-baja/static/media/Amalga_White.5a33c6773e042b2f2ccd.png",
+    "static/media/DassaultSystemes_White.png": "/msoe-baja/static/media/DassaultSystemes_White.4faab05b65ac94a72ad9.png",
+    "static/media/Weller_White.png": "/msoe-baja/static/media/Weller_White.df8a50ea4565a2d30451.png",
+    "static/media/CompDrive_White.png": "/msoe-baja/static/media/CompDrive_White.c18c784a9e62f2d83fb0.png",
+    "static/media/Carnevor_White.png": "/msoe-baja/static/media/Carnevor_White.c3959df5e47f8b15e9fd.png",
+    "static/media/SAEInt_White.png": "/msoe-baja/static/media/SAEInt_White.8df09a1920718b64811e.png",
+    "static/media/Ansys_White.png": "/msoe-baja/static/media/Ansys_White.d80fa8342e25c95340bf.png",
+    "static/media/LawyerLuke_White.png": "/msoe-baja/static/media/LawyerLuke_White.7a7e216ef094f5fff5ce.png",
+    "static/media/B&BSteel_White.png": "/msoe-baja/static/media/B&BSteel_White.39000e37eee995fb5c26.png",
+    "static/media/Evology_White.png": "/msoe-baja/static/media/Evology_White.6fa874d21ca61b342fc4.png",
+    "static/media/Altair_White.png": "/msoe-baja/static/media/Altair_White.e8d54df3ee4727f0cc15.png",
     "index.html": "/msoe-baja/index.html",
-    "main.360db2ab.css.map": "/msoe-baja/static/css/main.360db2ab.css.map",
-    "main.55d11ec5.js.map": "/msoe-baja/static/js/main.55d11ec5.js.map",
-    "453.4d6bc301.chunk.js.map": "/msoe-baja/static/js/453.4d6bc301.chunk.js.map"
+    "main.38454915.css.map": "/msoe-baja/static/css/main.38454915.css.map",
+    "main.c2bce6bb.js.map": "/msoe-baja/static/js/main.c2bce6bb.js.map",
+    "453.133846ae.chunk.js.map": "/msoe-baja/static/js/453.133846ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.360db2ab.css",
-    "static/js/main.55d11ec5.js"
+    "static/css/main.38454915.css",
+    "static/js/main.c2bce6bb.js"
   ]
 }
