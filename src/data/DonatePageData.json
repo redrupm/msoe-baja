@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "title": "Support MSOE Baja Racing",
+    "subtitle": "Your donation helps us compete and innovate"
+  },
+  "sections": [
+    {
+      "heading": "Why Donate?",
+      "content": "MSOE Baja Racing is a student-led organization that designs, builds, and races off-road vehicles. Your generous donations help us purchase materials, tools, and equipment needed to compete at the highest level in SAE Baja competitions."
+    },
+    {
+      "heading": "How Your Donation Helps",
+      "content": "list",
+      "items": [
+        "Materials and parts for vehicle construction",
+        "Testing and safety equipment",
+        "Travel expenses to competitions",
+        "Tools and fabrication equipment",
+        "Team development and training"
+      ]
+    },
+    {
+      "heading": "Make a Donation",
+      "content": "To make a tax-deductible donation to MSOE Baja Racing, please contact the MSOE Development Office or reach out to our team directly.",
+      "buttons": [
+        {
+          "text": "Donate Online",
+          "url": "https://www.msoe.edu/about-msoe/support-msoe/give-now/",
+          "type": "primary"
+        },
+        {
+          "text": "Contact Us About Donating",
+          "url": "mailto:bajaracing@msoe.edu",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "heading": "Other Ways to Support",
+      "content": "If you're unable to make a monetary donation, consider becoming a sponsor or helping us spread the word about our program. Every bit of support makes a difference!"
+    }
+  ]
+}

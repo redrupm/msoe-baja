@@ -32,83 +32,90 @@
     "role": "Health & Safety Manager",
     "major": "Actuarial Science",
     "linkedin": "https://www.linkedin.com/in/checkaie",
-    "section": "General Board"
+    "section": "Project Managers"
   },
     {
     "name": "Aneeq Ahmad",
     "role": "Drivetrain Lead",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/aneeqahmad07",
-    "section": "General Board"
+    "section": "Project Managers"
   },
   {
     "name": "Peter Vladimirov",
     "role": "Chassis Lead",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/peter-vladimirov",
-    "section": "General Board"
+    "section": "Project Managers"
   },
   {
     "name": "Colin Wells",
     "role": "Steering Lead",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/cw06/",
-    "section": "General Board"
+    "section": "Project Managers"
   },
   {
     "name": "Niko Munoz",
     "role": "Suspension Lead",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/nikomunoz64",
-    "section": "General Board"
+    "section": "Project Managers"
   },
   {
     "name": "Roman Zaslavskiy",
     "role": "Braking Lead",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/roman-zaslavskiy-me",
-    "section": "General Board"
+    "section": "Project Managers"
   },
   {
     "name": "Kyle Rosser",
     "role": "Electrical Lead",
     "major": "Electrical Engineering",
     "linkedin": "https://www.linkedin.com/in/kylerosser",
-    "section": "General Board"
+    "section": "Project Managers"
   },
   {
     "name": "Henry Pulling",
-    "role": "Fabrication Lead",
+    "role": "Engineering Director",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/henry-lewis-pulling",
-    "section": "General Board"
+    "section": "Branch Directors"
   },
   {
     "name": "Backliff Mwaya",
-    "role": "Business Lead",
+    "role": "Business & Operations Manager",
     "major": "Civil Engineering",
     "linkedin": "https://www.linkedin.com/in/backliff-mwaya-a46183281",
-    "section": "General Board"
+    "section": "Branch Directors"
+  },
+  {
+    "name": "Michael McMurray",
+    "role": "Technical Director",
+    "major": "Mechanical Engineering",
+    "linkedin": "",
+    "section": "Branch Directors"
   },
   {
     "name": "Elizabeth Reyes",
     "role": "Media Lead",
     "major": "User Experience",
     "linkedin": "https://www.linkedin.com/in/elizabeth-reyes-527374293",
-    "section": "General Board"
+    "section": "Project Managers"
   },
   {
     "name": "Lauren Marcotte",
     "role": "Event Planning",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/lauren-marcotte-038879330",
-    "section": "General Board"
+    "section": "Project Managers"
   },
   {
     "name": "Raymond Schmitt",
     "role": "Operations Lead",
     "major": "Mechanical Engineering",
     "linkedin": "https://www.linkedin.com/in/ray-schmitt-me",
-    "section": "General Board"
+    "section": "Project Managers"
   }
 ]

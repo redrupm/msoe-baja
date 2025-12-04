@@ -47,6 +47,86 @@ export default function Team() {
         );
       })()}
 
+      {/* Branch Directors - always visible */}
+      {(() => {
+        const groups = teamMembers.reduce((acc, m) => {
+          const key = m.section || 'General Board';
+          if (!acc[key]) acc[key] = [];
+          acc[key].push(m);
+          return acc;
+        }, {});
+
+        const branchDirectors = groups['Branch Directors'] || [];
+        if (!branchDirectors.length) return null;
+
+        return (
+          <div className="board" key="Branch Directors">
+            <h2 className="board-heading">Branch Directors</h2>
+            <hr className="role-sep" />
+            <div className="team-grid eboard-grid">
+              {branchDirectors.map((member, index) => (
+                <div className="team-member" key={index}>
+                  <img src={require(`../../images/people/${member.name.replace(/\s/g, '')}.jpg`)} alt={member.name} />
+                  <div className="info">
+                    <div className="name-hover">
+                      <h3>{member.name}</h3>
+                      <div className="hover-details">
+                        <p className="major">{member.major}</p>
+                        {member.linkedin && (
+                          <a href={member.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        )}
+                      </div>
+                    </div>
+                    <hr className="role-sep" />
+                    <p className="role">{member.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+      })()}
+
+      {/* Project Managers - always visible */}
+      {(() => {
+        const groups = teamMembers.reduce((acc, m) => {
+          const key = m.section || 'General Board';
+          if (!acc[key]) acc[key] = [];
+          acc[key].push(m);
+          return acc;
+        }, {});
+
+        const projectManagers = groups['Project Managers'] || [];
+        if (!projectManagers.length) return null;
+
+        return (
+          <div className="board" key="Project Managers">
+            <h2 className="board-heading">Project Managers</h2>
+            <hr className="role-sep" />
+            <div className="team-grid">
+              {projectManagers.map((member, index) => (
+                <div className="team-member" key={index}>
+                  <img src={require(`../../images/people/${member.name.replace(/\s/g, '')}.jpg`)} alt={member.name} />
+                  <div className="info">
+                    <div className="name-hover">
+                      <h3>{member.name}</h3>
+                      <div className="hover-details">
+                        <p className="major">{member.major}</p>
+                        {member.linkedin && (
+                          <a href={member.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        )}
+                      </div>
+                    </div>
+                    <hr className="role-sep" />
+                    <p className="role">{member.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+      })()}
+
       {/* Button to show/hide General Board */}
       <button
         className="toggle-button"
@@ -54,7 +134,7 @@ export default function Team() {
         aria-expanded={isOpen}
         aria-controls="general-board"
       >
-        {isOpen ? 'Hide team' : 'Show team'}
+        {isOpen ? 'Hide rest of team' : 'Show rest of team'}
       </button>
 
       <div id="general-board" className={`team-content ${isOpen ? 'open' : 'collapsed'}`}>
